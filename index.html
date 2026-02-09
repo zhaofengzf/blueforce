@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - [App Name]</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #202124;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #1a73e8;
+            font-size: 32px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        
+        .subtitle {
+            color: #5f6368;
+            font-size: 14px;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #dadce0;
+        }
+        
+        h2 {
+            color: #202124;
+            font-size: 22px;
+            margin-top: 32px;
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+        
+        h3 {
+            color: #3c4043;
+            font-size: 16px;
+            margin-top: 20px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 12px;
+            color: #3c4043;
+        }
+        
+        .permission-card {
+            background: #f8f9fa;
+            border-left: 4px solid #1a73e8;
+            padding: 16px 20px;
+            margin: 16px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .permission-title {
+            color: #1a73e8;
+            font-weight: 600;
+            font-size: 15px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .permission-detail {
+            font-size: 14px;
+            color: #5f6368;
+            line-height: 1.5;
+        }
+        
+        .permission-detail strong {
+            color: #3c4043;
+        }
+        
+        .highlight-box {
+            background: #e8f0fe;
+            border: 1px solid #1a73e8;
+            padding: 16px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .highlight-box p {
+            margin: 0;
+            color: #1a73e8;
+            font-weight: 500;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-bottom: 16px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            color: #3c4043;
+        }
+        
+        .contact-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 24px;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #dadce0;
+            font-size: 12px;
+            color: #5f6368;
+            text-align: center;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 24px;
+            }
+            
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">Last updated: February 7, 2026 | Package: com.blueforce.beebox</p>
+
+        <div class="highlight-box">
+            <p>This privacy policy explains how we collect, use, and protect your personal information when you use our Android application.</p>
+        </div>
+
+        <h2>1. Information We Collect</h2>
+        <p>Our app requests the following permissions to provide core functionality:</p>
+
+        <div class="permission-card">
+            <div class="permission-title">📷 Camera (android.permission.CAMERA)</div>
+            <div class="permission-detail">
+                <strong>Purpose:</strong> Capture photos, scan QR codes, and enable image recognition features.<br>
+                <strong>Data collected:</strong> Photos, videos, and image data.<br>
+                <strong>Storage:</strong> Images are stored locally on your device as well as on the server.
+            </div>
+        </div>
+
+        <div class="permission-card">
+            <div class="permission-title">💾 Storage (WRITE_EXTERNAL_STORAGE / READ_EXTERNAL_STORAGE)</div>
+            <div class="permission-detail">
+                <strong>Purpose:</strong> Save captured photos, cache app data, and access local files.<br>
+                <strong>Data collected:</strong> Files, images, and application data.<br>
+                <strong>Storage:</strong> Local device storage in app-specific directories.
+            </div>
+        </div>
+
+        <div class="permission-card">
+            <div class="permission-title">📡 NFC (android.permission.NFC)</div>
+            <div class="permission-detail">
+                <strong>Purpose:</strong> Read NFC tags for [data exchange].<br>
+                <strong>Data collected:</strong> NFC tag data (read-only, not stored permanently).<br>
+                <strong>Storage:</strong> Tag data is processed in real-time and not retained.
+            </div>
+        </div>
+
+        <div class="permission-card">
+            <div class="permission-title">🌐 Network (INTERNET / ACCESS_NETWORK_STATE)</div>
+            <div class="permission-detail">
+                <strong>Purpose:</strong> Connect to online services and check network connectivity status.<br>
+                <strong>Data collected:</strong> IP address, network state, and connection type.<br>
+                <strong>Usage:</strong> May be used for security logging and service optimization.
+            </div>
+        </div>
+
+        <h2>2. How We Use Your Information</h2>
+        <p>We use the collected data solely for:</p>
+        <ul>
+            <li>Providing core app functionality (camera capture, NFC interaction)</li>
+            <li>Improving user experience and app performance</li>
+            <li>Ensuring app security and preventing fraud</li>
+        </ul>
+
+        <h2>3. Data Sharing and Disclosure</h2>
+        <p>We do not sell your personal information. We may share data only in the following circumstances:</p>
+        <ul>
+            <li>With your explicit consent</li>
+            <li>When required by law or legal process</li>
+            <li>To protect our rights, privacy, safety, or property</li>
+        </ul>
+
+        <h2>4. Data Security</h2>
+        <p>We implement appropriate technical and organizational measures to protect your data:</p>
+        <ul>
+            <li>Local data encryption where applicable</li>
+            <li>Secure HTTPS transmission for network communications</li>
+            <li>Regular security assessments and updates</li>
+            <li>Limited access to data within our organization</li>
+        </ul>
+
+        <h2>5. Your Rights and Choices</h2>
+        <p>You have the following rights regarding your personal data:</p>
+        <ul>
+            <li><strong>Permission Control:</strong> You can revoke any permission at any time through your device Settings > Apps > [BEEBOX] > Permissions</li>
+            <li><strong>Data Deletion:</strong> Uninstalling the app removes all locally stored data. You may also request data deletion by contacting us.</li>
+            <li><strong>Access:</strong> You can request a copy of your data that we hold.</li>
+            <li><strong>Opt-out:</strong> You can disable certain features to prevent data collection.</li>
+        </ul>
+
+        <h2>6. Data Retention</h2>
+        <p>We retain your data only as long as necessary to fulfill the purposes outlined in this policy:</p>
+        <ul>
+            <li>Local photos and files: Until deleted by you or when the app is uninstalled</li>
+            <li>Location history: [not retained]</li>
+            <li>Network logs: [Specify retention period , 30 days]</li>
+        </ul>
+
+        <h2>7. Children's Privacy</h2>
+        <p>Our app is not intended for children under the age of 13 (or 16 in certain jurisdictions). We do not knowingly collect personal information from children. If you believe we have inadvertently collected such data, please contact us immediately for deletion.</p>
+
+        <h2>8. International Data Transfers</h2>
+        <p>Your data may be processed on servers located in [country/region]. We ensure appropriate safeguards are in place for any international transfers.</p>
+
+        <h2>9. Changes to This Policy</h2>
+        <p>We may update this privacy policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last updated" date. For significant changes, we will provide additional notice through the app or via email.</p>
+
+        <div class="contact-box">
+            <h2>10. Contact Us</h2>
+            <p>If you have any questions, concerns, or requests regarding this privacy policy or our data practices, please contact us:</p>
+            <p style="margin-top: 12px;">
+                <strong>Email:</strong> [pm@ablueforce.com]<br>
+                <strong>Developer:</strong> [frank/BlueForce Tech Inc.]<br>
+                <strong>Address:</strong> [2971 Viking Way Unit 108 Richmond - V6V 1Y1]
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 [BlueForce Tech Inc.]. All rights reserved.</p>
+            <p style="margin-top: 8px;">This privacy policy applies to app version code 20260207.2255 and above (Package: com.blueforce.beebox)</p>
+        </div>
+    </div>
+</body>
+</html>
